@@ -1,52 +1,58 @@
 body{
-    background-image: url("fondpense.jpg");
+    background-color: black;
+   /* background-image: url("fondpense.jpg");*/
     background-size: cover;
     margin:0;
 }
 
+
 header{
+    box-shadow: 5px 5px 36px white;
+    text-decoration: none;
     width:100%;
     height: 80px;
-    background-color:rgb(243, 127, 106);
+    background-color:rgb(36, 36, 36);
 }
 
+.none{
+    padding-top: 0%;
+    text-decoration: none;
+    color:white;
+}
 
 nav{
+    margin-top:2%;
     display: flex;
     flex-direction: row;
     font-size: 25px;
-    justify-content: space-evenly;
+    justify-content: space-between;
     height: 80px;
     padding: 15px;
-}
-
-
-.articles_nav{
     color: white;
     font-family: fantasy;
-    margin-top: -33px;
     text-align: center;
 }
 
 
-#logonav{
-    margin-top: -22px;
-    width: 40px;
-    height: 25px;
+#envfoot{
+    width: 78px;
+    height: 63px;
 }
 
 
-main{
-   
+#loglink{
+    width: 78px;
+    height: 63px;
 }
 
 
 #photofoot{
-    border: solid 2px pink;
+    border: solid 2px white;
     border-radius: 56%;
     width: 65px;
     height: 56px;
 }
+
 
 .logosfoot{
     display: flex;
@@ -59,11 +65,13 @@ main{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin-top: 30px;
+    margin-top: -3%;
+    padding-top: 2%;
 }
 
 
 h1{
+    text-shadow: 8px 1px 1px rgb(49, 49, 49);
     margin: 15px;
     color: white;
     font-size: 89px;
@@ -72,50 +80,37 @@ h1{
 
 
 .sect1_haut{
+    margin-top: 100px;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    margin-top: 17px;
-    margin-left: 56px;
-    margin-right: 56px;
-}
-
-
-.sect2_haut{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin-top: 79px;
-    margin-left: 56px;
-    margin-right: 56px;
+    justify-content: space-between;   
 }
 
 
 .arts_sect_haut{
-    width: 332px;
-    height: 200px;
-}
-
-
-#pjt4{
-    margin-top: 160px;
-    border: 5px solid black;
-    width: 332px;
-    height: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;   
 }
 
 
 .pjts{
     border: 5px solid black;
-    width: 332px;
-    height: 200px;
+    width: 270px;
+    height: 175px;
 }
 
+
 footer{
-   
-    margin-top: 195px;
-    width:100%;
-    height: 60px;
-    background-color:rgb(243, 127, 106);
-    box-shadow: 17px -39px 18px white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 133px;
+    background-color:rgb(36, 36, 36);
+    box-shadow: 8px -22px 27px white;
+}
+
+
+p{
+    color:white
 }
