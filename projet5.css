@@ -1,0 +1,150 @@
+body{
+    background-image:url("fond404.jpg");
+    background-size: cover;
+    margin:0;
+}
+
+
+header{
+    margin-top: -2%;
+    box-shadow: 5px 5px 36px white;
+    text-decoration: none;
+    width:100%;
+    height: 80px;
+    background-color:rgb(36, 36, 36);
+}
+
+.none{
+    padding-top: 0%;
+    text-decoration: none;
+    color:white;
+}
+
+
+#barré{
+    padding-top: 0%;
+    text-decoration: line-through;
+    color: black;
+}
+
+
+nav{
+    text-shadow: 2px 2px 1px red;
+    margin-top:2%;
+    display: flex;
+    flex-direction: row;
+    font-size: 25px;
+    justify-content: space-between;
+    height: 80px;
+    padding: 15px;
+    color: white;
+    font-family: fantasy;
+    text-align: center;
+}
+
+
+main{
+    display: flex;
+    flex-direction: row;
+}
+
+
+#textedegauche{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+
+}
+
+
+#textG{
+    margin: 43px;
+    font-size: 31px;
+    text-shadow: 1px 1px 0px white;
+}
+
+
+#textededroite{
+    display: flex;
+    flex-direction: column;
+    font-family: fantasy;
+    font-size: 27px;
+    margin-right: 83px;
+    margin-left: 96px;
+    margin-top: 8Opx;
+    text-shadow: 2px 2px 0px white;
+}
+
+
+.textD2{
+    margin-top: 80px;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+}
+
+
+#envfoot{
+    width: 78px;
+    height: 63px;
+}
+
+
+#loglink{
+    width: 78px;
+    height: 63px;
+}
+
+
+#photofoot{
+    border: solid 2px white;
+    border-radius: 56%;
+    width: 65px;
+    height: 56px;
+}
+
+
+.logosfoot{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+
+#titre{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: -3%;
+    padding-top: 2%;
+}
+
+
+h1{
+    text-shadow: 8px 1px 1px rgb(49, 49, 49);
+    margin: 15px;
+    color: white;
+    font-size: 89px;
+    font-style: italic;
+}
+
+
+#pjts{
+    display: flex;
+    flex-direction: row;
+    border: 5px solid black;
+    width: 891px;
+    height: 409px;
+}
+
+
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: rgb(36, 36, 36);
+    box-shadow: 8px -22px 27px white;
+}
+
