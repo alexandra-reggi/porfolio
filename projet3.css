@@ -59,7 +59,7 @@ main{
 
 #textG{
     margin: 54px;
-    font-size: 32px;
+    font-size: 29px;
     text-shadow: 2px 1px 0px dodgerblue;
 }
 
@@ -142,7 +142,7 @@ h1{
 
 
 footer{
-    margin-top:-16px;
+    margin-top:-50px;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
