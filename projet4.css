@@ -59,7 +59,7 @@ main{
 
 #textG{
     margin: 43px;
-    font-size: 32px;
+    font-size: 29px;
     text-shadow: 4px 2px 1px deepskyblue;
     color: white;
 }
@@ -144,7 +144,7 @@ h1{
 
 
 footer{
-    margin-top:-32px;
+    margin-top:-28px;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;

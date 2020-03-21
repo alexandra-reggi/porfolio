@@ -14,6 +14,7 @@ header{
     background-color:rgb(36, 36, 36);
 }
 
+
 .none{
     padding-top: 0%;
     text-decoration: none;
@@ -73,7 +74,6 @@ main{
     margin-left: 96px;
     margin-top: 8Opx;
     text-shadow: 2px 2px 0px white;
-
 }
 
 
@@ -91,6 +91,7 @@ main{
     width: 74px;
     height: 67px;
 }
+
 
 #envfoot{
     width: 78px;

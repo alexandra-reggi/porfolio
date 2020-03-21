@@ -13,11 +13,13 @@ header{
     background-color:rgb(41, 41, 41);
 }
 
+
 .none{
     padding-top: 0%;
     text-decoration: none;
     color:white;
 }
+
 
 nav{
     text-shadow: 3px 3px 0px black;
